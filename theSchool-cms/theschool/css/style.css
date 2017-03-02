@@ -1,0 +1,195 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #c9e6ff;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+html{
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-color: ghostwhite;
+    font-family: cursive;
+    height: 100%;
+    margin: 0;
+}
+.nav{
+    margin: 0;
+    width: 100%;
+}
+.navLiWrapper{
+    top: 1em;
+    margin-top: 13px;
+    color: cornflowerblue;
+}
+.text-nowrap {
+    white-space: nowrap;
+}
+.navbar-nav:hover{
+    cursor: pointer;
+}
+.navLi{
+    padding-left: 8px;
+    display: inline-block !important;
+}
+.navbar-right{
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+#logout{
+    color: cornflowerblue;
+}
+#logout:hover {
+    cursor: pointer;
+}
+.logoImg{
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.border{
+    width: 99%;
+    border-bottom: groove lightcyan !important;
+    margin-left: 10px;
+    padding-top: 0.3%;
+}
+.dm{
+    text-align: center;
+    margin: 0 auto;
+}
+.dmButtons{
+    text-align: center;
+    margin-right: 5%;
+}
+.dmListButtons{
+    list-style-type: none;
+}
+.optionsButtons{
+    display: inline;
+}
+.loginModal{
+    margin: 0 auto;
+    width: 25%;
+    padding-top: 5%;
+}
+.loginBtn, .loginInput{
+    margin: 0 auto; 
+    width: 100%;
+    margin-bottom: 5%;
+}
+.homeView{
+    max-height: 49em;
+    overflow-y: auto;
+}
+.mainView{
+    position: fixed;
+    right: 2%;
+    width: 65%;
+    border:3px inset gainsboro;
+    height: 89%;
+    margin-top: 15px;
+}
+.mainCont{
+    margin: 0 auto;
+    width: 60%;
+    text-align: right; 
+    max-height: 51.5em;
+    overflow-y: auto;
+}
+.editBtnMainCont{
+    margin-right: 5%;
+    margin-top: 1%;
+    text-align: right;
+}
+.insideMainView{
+    width: 75%;
+    text-align: left;
+    margin-left: 20%;
+}
+.mainInput{
+    margin-bottom: 2%;
+}
+.editStudentEnroll, #enrollList{
+    font-size: 1.5em;
+}
+#enrollList, .selectRoles{
+    text-align: left;
+}
+.counter{
+    font-size: 1.7em;
+}
+.mainStudentUl{
+    padding-top: 30px;
+}
+.mainStudentLi{
+    font-size: 1.5em;
+}
+.mainStudentLi, .mainStudentUl, .editStudentEnroll{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.alert{
+    text-align: left;
+}
+.userHome{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.sideview{
+    position: fixed;
+    width: 30%;
+    border: 3px inset gainsboro;
+    height: 89%;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.schoolView, .adminView{
+    max-height: 48em;
+    overflow-y: auto;    
+}
+.sideCulumns{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.grandLiSide{
+    display: inline-table;
+    vertical-align: top;
+    padding-left: 5%;
+}
+.ulHeader{
+    width: 80%;
+    font-size: 1.7em;
+    text-decoration: underline;
+}
+.sideUl{
+    list-style-type: none;
+    padding-left: 5px;
+}
+.sideLi{
+    margin-bottom: 10px;
+    border: 1px solid cadetblue;
+    border-radius: 3%;
+    padding: 3px;
+}
+.course, .student{
+    max-width: 200px;
+}
+.sideLi, .ulHeader:hover{
+    cursor: pointer;
+}
+.bold{
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
